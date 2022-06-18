@@ -1,0 +1,26 @@
+.title {
+  background: $white;
+  padding: 130px 75px 175px 67px;
+  display: flex;
+  align-items: center;
+  &__text {
+    margin-bottom: 51px;
+    max-width: 491px;
+  }
+  &__main-content {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 552px;
+    h1 {
+      margin: 0 0 51px;
+    }
+
+    span {
+      font-size: 15px;
+      line-height: 25px;
+    }
+    .buttons {
+      margin-bottom: 25px;
+    }
+  }
+}

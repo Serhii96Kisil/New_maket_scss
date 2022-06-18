@@ -1,0 +1,64 @@
+.buttons {
+  @include ul-style;
+  display: flex;
+  align-items: center;
+  li:last-child {
+    margin-left: 10px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  background-color: $orange;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  border: 1px solid $orange;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  &:hover {
+    transform: scale(0.9);
+    color: $orange;
+    background-color: $hover-btn-bg;
+    transition: all 0.4s;
+  }
+
+  &--small {
+    min-height: 45px;
+    min-width: 120px;
+    padding: 12px 12px;
+  }
+  &--big {
+    min-width: 193px;
+    padding: 21px 20px;
+  }
+  &--large {
+    min-width: 160px;
+    padding: 20px 0;
+  }
+  &--white {
+    background-color: $white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: $black;
+    &:hover {
+      background-color: $hover-btn-bg;
+      color: $orange;
+      transition: all 0.4s;
+    }
+  }
+  &--black {
+    color: $white;
+    background: $black;
+    border-color: $black;
+    &:hover {
+      background-color: $hover-btn-bg;
+      color: $orange;
+      transition: all 0.4s;
+    }
+  }
+}

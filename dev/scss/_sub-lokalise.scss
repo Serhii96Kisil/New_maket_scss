@@ -1,0 +1,42 @@
+.sub-lokalise {
+  background: $white;
+  padding: 154px 0 187px 0;
+  a:hover {
+    color: $orange;
+    transition: all 0.4s;
+    text-decoration: none;
+  }
+  h2 {
+    margin-bottom: 75px;
+  }
+  &__heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 34px;
+  }
+  &__content {
+    max-width: 409px;
+  }
+  &__wrapp {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.sub-lokalise__box:first-child {
+  .sub-lokalise__heading {
+    margin-top: 49px;
+  }
+}
+.sub-lokalise__box:nth-child(2) {
+  margin-top: 17px;
+  .sub-lokalise__heading {
+    margin-top: 67px;
+  }
+}
+.sub-lokalise__box:last-child {
+  margin-top: 9px;
+  .sub-lokalise__heading {
+    margin-top: 58px;
+  }
+}

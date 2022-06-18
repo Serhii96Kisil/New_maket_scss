@@ -1,0 +1,24 @@
+.managment {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 67px 84px 54px;
+  background: $color_managment;
+  &__cake-section {
+    display: flex;
+    min-width: 828px;
+    border-right: 1px solid $black;
+  }
+  &__img {
+    margin-right: 67px;
+  }
+
+  &__content {
+    max-width: 461px;
+  }
+  &__brands-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

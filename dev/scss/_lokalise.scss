@@ -1,0 +1,35 @@
+.lokalise {
+  background: $color_lokalise;
+  padding: 120px 0 0 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  a:hover {
+    text-decoration: none;
+    color: $orange;
+    transition: all 0.4s;
+  }
+  &__box-wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+  &__box {
+    width: 33%;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+  &__heading {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    margin: 23px 0;
+  }
+  &__content {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 330px;
+    margin: 0 auto;
+  }
+}

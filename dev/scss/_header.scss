@@ -1,0 +1,39 @@
+#header {
+  background-color: #fff;
+  padding: 25px 51px;
+  border-bottom: 1px solid #ccc;
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    &__item1 {
+      padding-right: 51px;
+    }
+    &__item2,
+    &__item3 {
+      padding-right: 57px;
+    }
+    &__item4 {
+      padding-right: 42px;
+    }
+    &__item5 {
+      padding-right: 49px;
+    }
+
+    & li > a {
+      text-decoration: none;
+      font-size: $base_fz;
+      line-height: $base_lh;
+      transition: all 0.4s;
+    }
+    & li > a:hover {
+      color: $orange;
+    }
+  }
+}

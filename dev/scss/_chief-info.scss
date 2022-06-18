@@ -1,0 +1,19 @@
+.chief-info {
+  background: $color_chief-bg;
+  padding: 53px 0 105px 0;
+  &__wrapp {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__span {
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 10px;
+  }
+  &__content {
+    max-width: 920px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

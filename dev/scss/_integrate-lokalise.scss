@@ -1,0 +1,17 @@
+.integrate-lokalise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 165px 0;
+  text-align: center;
+  &__heading {
+    max-width: 750px;
+    font-size: 56px;
+    line-height: 75px;
+    margin-bottom: 0;
+  }
+  &__content {
+    max-width: 590px;
+    margin: 0 0 25px 0;
+  }
+}
